@@ -20,5 +20,11 @@ namespace Celochisl
         {
             InitializeComponent();
         }
+
+        private void Branch_Click(object sender, RoutedEventArgs e)
+        {
+            BranchC branchC = new BranchC();
+            branchC.Show();
+        }
     }
 }
