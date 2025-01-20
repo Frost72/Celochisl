@@ -26,5 +26,11 @@ namespace Celochisl
             BranchC branchC = new BranchC();
             branchC.Show();
         }
+
+        private void Gomori_Click(object sender, RoutedEventArgs e)
+        {
+            Gomori gomori = new Gomori();
+            gomori.Show();
+        }
     }
 }

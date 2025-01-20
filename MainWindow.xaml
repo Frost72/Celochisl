@@ -12,6 +12,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Button x:Name="Branch" Content="Метод ветвей и границ" Grid.Row="0" FontSize="16" Margin="300,228,271,122" Click="Branch_Click"/>
+        <Button x:Name="Gomori" Content="Метод Гомори" Grid.Row="1" FontSize="16" Margin="300,148,271,201" Click="Gomori_Click"/>
 
     </Grid>
 </Window>
